@@ -7,8 +7,8 @@ here = path.abspath(path.dirname(__file__))
 with open('README.md', mode='r', encoding='utf-8') as fp:
     README = fp.read()
 
-setup(name='google_search_results',
-      version='2.4.2',
+setup(name='serpapi',
+      version='0.1.4',
       description='Scrape and search localized results from Google, Bing, Baidu, Yahoo, Yandex, Ebay, Homedepot, youtube at scale using SerpApi.com',
       url='https://github.com/serpapi/google-search-results-python',
       author='vikoky',
